@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding - 미래의 개발 방식</title>
+    <meta name="description" content="AI와 함께 리듬을 타며 코딩하는 새로운 패러다임, Vibe Coding을 경험하세요.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-grid"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">VIBE<span class="highlight">CODING</span></div>
+            <ul class="nav-links">
+                <li><a href="#features">특징</a></li>
+                <li><a href="#" class="btn-primary" onclick="alert('시스템 캘리브레이션 중입니다. 잠시만 기다려주세요! 🫡')">시작하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="glitch" data-text="코드에 리듬을 더하다">코드에 리듬을 더하다</h1>
+            <p>AI와 인간이 만들어내는 완벽한 하모니.<br>타이핑을 넘어선 새로운 차원의 개발 경험을 만나보세요.</p>
+            <button class="btn-pulse" id="activateBtn">시스템 가동 🚀</button>
+        </section>
+
+        <section id="features" class="features">
+            <div class="card">
+                <div class="icon">🤖</div>
+                <h3>AI 페어 프로그래밍</h3>
+                <p>마치 비행 시스템이 궤도를 자동 보정하듯, 당신의 생각을 읽는 스마트한 제안으로 개발 속도를 비약적으로 향상시킵니다.</p>
+            </div>
+            <div class="card">
+                <div class="icon">✨</div>
+                <h3>직관적인 흐름</h3>
+                <p>물리 엔진이 자연스러운 움직임을 계산하듯, 문법에 얽매이지 않고 머릿속의 아이디어를 그대로 코드로 투영하세요.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🎨</div>
+                <h3>창의적 몰입</h3>
+                <p>단순 반복 작업은 메인 프레임에 맡기고, 미스터 도현님은 설계와 창의성에만 집중하십시오.</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="terminal-overlay" id="terminal">
+        <div class="terminal-header">
+            <div class="circle red"></div>
+            <div class="circle yellow"></div>
+            <div class="circle green"></div>
+        </div>
+        <div class="terminal-body" id="terminalText">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
